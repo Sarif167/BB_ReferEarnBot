@@ -105,7 +105,7 @@ function createInlineButtons(channels) {
     let buttons = [];
     let row = [];
     channels.forEach((channel, index) => {
-        row.push({ text: channel, url: `https://t.me/${channel.replace("@", "")}` });
+        row.push({ text: channel, url: `https://t.me/${channel.replace("@ClipMateBhai", "@ClipMateBhai")}` });
         // Group in two or add the last remaining one
         if (row.length === 2 || index === channels.length - 1) {
             buttons.push(row);
